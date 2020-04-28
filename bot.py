@@ -180,7 +180,7 @@ def error(bot, update, error):
 if __name__ == "__main__":
     if not os.path.exists(Config.DOWNLOAD_LOCATION):
         os.makedirs(Config.DOWNLOAD_LOCATION)
-    updater = Updater(token=Config.TG_BOT_TOKEN)
+    updater = Updater(token=Config.TOKEN)
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(CommandHandler('donate', donate))
     updater.dispatcher.add_handler(CommandHandler('rate', rate))
