@@ -16,7 +16,7 @@ from telegram.ext import Updater, MessageHandler, Filters, InlineQueryHandler, C
 # the secret configuration specific things
 ENV = bool(os.environ.get("ENV", False))
 if ENV:
-    from sample_config import Config
+    from config import Config
 else:
     from config import Config
 
