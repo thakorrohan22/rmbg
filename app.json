@@ -1,1 +1,47 @@
-t
+
+{
+  "name": "Rembg",
+  "description": "Bot to Remove Background of A img",
+  "keywords": [
+    "telegram",
+    "best",
+    "background",
+    "remover",
+    "3"
+  ],
+  "repository": "https://github.com/salmanpdr/rmbg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Bot token from @botfather",
+      "value": ""
+    },
+    "CBTOKEN": {
+      "description": "get a token from ChatBase.com for analytics",
+      "value": ""
+    },
+    "CHUNK_SIZE": {
+      "description": "Python3 ReQuests CHUNK SIZE",
+      "value": "10281"
+    },
+    "REM_BG_API_KEY": {
+      "description": "ReMove.BG API Key",
+      "value": ""
+    },
+    "DOWNLOAD_LOCATION": {
+      "description": "temporary download location",
+      "value": "./rmbg1/DOWNLOADS/"
+    },
+    "URL": {
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ]
+}
