@@ -19,6 +19,10 @@
       "description": "get a token from ChatBase.com for analytics",
       "value": ""
     },
+    "PORT": {
+      "description": "Port to use for your webhooks",
+      "value": "5000"
+    },
     "CHUNK_SIZE": {
       "description": "Python3 ReQuests CHUNK SIZE",
       "value": "10281"
