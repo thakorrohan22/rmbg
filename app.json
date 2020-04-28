@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/salmanpdr/rmbg",
   "env": {
-    "TOKEN": {
+    "BOT_TOKEN": {
       "description": "Bot token from @botfather",
       "value": ""
     },
